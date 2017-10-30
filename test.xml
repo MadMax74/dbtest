@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//OASIS//DTD DocBook XML V4.2//EN" "http://docbook.org/xml/4.2/docbookx.dtd">
+<article lang="ru">
+  <title>Мой первый документ DocBook на русском языке</title>
+  <sect1>
+     <title>Приветствие. Всем привет!</title>
+     <para>Hello world</para>
+     <para>Привет мир! Ёпта!</para>
+     <para>Пример кода: <code>var=val</code> присвоение</para>
+     <para><programlisting>
+int main(int argc, char * argv[]) {
+ return 0;
+}
+     </programlisting></para>
+  </sect1>
+</article>
+<article lang="en">
+  <title>My first DocBook document</title>
+  <sect1>
+     <title>Greeting. Hi all!</title>
+     <para>Hello world</para>
+     <para>Code example: <code>var=val</code> assignment</para>
+     <para><programlisting>
+int main(int argc, char * argv[]) {
+ return 0;
+}
+     </programlisting></para>
+  </sect1>
+</article>
