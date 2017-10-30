@@ -12,18 +12,6 @@ int main(int argc, char * argv[]) {
  return 0;
 }
      </programlisting></para>
-  </sect1>
-</article>
-<article lang="en">
-  <title>My first DocBook document</title>
-  <sect1>
-     <title>Greeting. Hi all!</title>
-     <para>Hello world</para>
-     <para>Code example: <code>var=val</code> assignment</para>
-     <para><programlisting>
-int main(int argc, char * argv[]) {
- return 0;
-}
-     </programlisting></para>
+     <imagedata fileref="svg.svg"/>
   </sect1>
 </article>

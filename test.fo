@@ -3,4 +3,4 @@
 int main(int argc, char * argv[]) {
  return 0;
 }
-     </fo:block></fo:block></fo:block></fo:flow></fo:page-sequence></fo:root>
+     </fo:block></fo:block><fo:external-graphic src="url(svg.svg)" width="auto" height="auto" content-width="auto" content-height="auto"/></fo:block></fo:flow></fo:page-sequence></fo:root>
