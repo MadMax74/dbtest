@@ -1,18 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE article PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://docbook.org/xml/4.5/docbookx.dtd">
-<article lang="ru">
-  <title>Мой первый документ DocBook на русском языке</title>
-  <sect1>
-     <title>Приветствие. Всем привет!</title>
-     <para>Hello world</para>
-     <para>Привет мир! Ёпта!</para>
-     <para>Пример кода: <code>var=val</code> присвоение</para>
-     <para><programlisting>
+<!DOCTYPE book PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://docbook.org/xml/4.5/docbookx.dtd">
+<book lang="ru">
+<bookinfo>
+ <title>Учебная книга</title>
+ <author><firstname>Максим</firstname><surname>Федорченко</surname></author>
+ <copyright>Ля-ля-ля<year>2017</year><holder>Я</holder></copyright>
+ <legalnotice>Все права принадлежат мне, а кто не согласен тому с ноги в темечко.</legalnotice>
+</bookinfo>
+ <article>
+   <title>Мой первый документ DocBook на русском языке</title>
+   <sect1>
+      <title>Приветствие. Всем привет!</title>
+      <para>Hello world</para>
+      <para>Привет мир! Ёпта!</para>
+      <para>Пример кода: <code>var=val</code> присвоение</para>
+      <para><programlisting>
 int main(int argc, char * argv[]) {
  return 0;
 }
-     </programlisting></para>
-     <para><imageobject><imagedata fileref="svg.svg"/></imageobject></para>
-     <para><imageobject><imagedata fileref="text.svg"/></imageobject></para>
-  </sect1>
-</article>
+      </programlisting></para>
+      <para><imageobject><imagedata fileref="svg.svg"/></imageobject></para>
+      <para>Это очень длинный текст, который должен выйти за пределы одной строки и продемонстрировать нам, как в DocBook по умолчанию форматируется абзац. Ведь могут быть варианты: ставится ли отступ на первой строке или отступ делается для всех последующих строк.  А может быть отступ не делается вообще и надо разбираться, как настроить отступ первой строки в абзаце. DocBook большой, сложный иструмент достаточно тяжёлый в освоении. К тому же, этот западная разработка и, как следствие, поддержка русского языка сделана весьме не внятно. Очень много времени пришлось разбираться с настройкой шрифтов чтобы корректно выводить в PDF русский текст. Немало времени ушло на поиск параметра включающего создание закладок в PDF. И ещё много времени уйдёт на освоение нужных в работе тэгов. Но это всё оправданно.</para>
+      <para><imageobject><imagedata fileref="text.svg"/></imageobject></para>
+   </sect1>
+ </article>
+</book>
