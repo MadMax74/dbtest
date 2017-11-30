@@ -1,0 +1,53 @@
+<?xml version="1.0"?>
+<fop version="1.0">
+  <base>../../../</base>
+  <font-base>.</font-base>
+  <source-resolution>72</source-resolution>
+  <target-resolution>72</target-resolution>
+  <default-page-settings height="11.69in" width="8.27in"/>
+  <renderers>
+    <renderer mime="application/pdf">
+      <fonts>
+<!-- Sans-serif font -->
+        <font metrics-url="FreeSans.xml" kerning="yes" embed-url="FreeSans.ttf">
+          <font-triplet name="FreeSans" style="normal" weight="normal"/>
+        </font>
+        <font metrics-url="FreeSansOblique.xml" kerning="yes" embed-url="FreeSansOblique.ttf">
+          <font-triplet name="FreeSans" style="italic" weight="normal"/>
+        </font>
+        <font metrics-url="FreeSansBold.xml" kerning="yes" embed-url="FreeSansBold.ttf">
+          <font-triplet name="FreeSans" style="normal" weight="bold"/>
+        </font>
+        <font metrics-url="FreeSansBoldOblique.xml" kerning="yes" embed-url="FreeSansBoldOblique.ttf">
+          <font-triplet name="FreeSans" style="italic" weight="bold"/>
+        </font>
+<!-- Serif font -->
+        <font metrics-url="FreeSerif.xml" kerning="yes" embed-url="FreeSerif.ttf">
+          <font-triplet name="FreeSerif" style="normal" weight="normal"/>
+        </font>
+        <font metrics-url="FreeSerifItalic.xml" kerning="yes" embed-url="FreeSerifItalic.ttf">
+          <font-triplet name="FreeSerif" style="italic" weight="normal"/>
+        </font>
+        <font metrics-url="FreeSerifBold.xml" kerning="yes" embed-url="FreeSerifBold.ttf">
+          <font-triplet name="FreeSerif" style="normal" weight="bold"/>
+        </font>
+        <font metrics-url="FreeSerifBoldItalic.xml" kerning="yes" embed-url="FreeSerifBoldItalic.ttf">
+          <font-triplet name="FreeSerif" style="italic" weight="bold"/>
+        </font>
+<!-- Momospace font -->
+        <font metrics-url="FreeMono.xml" kerning="yes" embed-url="FreeMono.ttf">
+          <font-triplet name="FreeMono" style="normal" weight="normal"/>
+        </font>
+        <font metrics-url="FreeMonoOblique.xml" kerning="yes" embed-url="FreeMonoOblique.ttf">
+          <font-triplet name="FreeMono" style="italic" weight="normal"/>
+        </font>
+        <font metrics-url="FreeMonoBold.xml" kerning="yes" embed-url="FreeMonoBold.ttf">
+          <font-triplet name="FreeMono" style="normal" weight="bold"/>
+        </font>
+        <font metrics-url="FreeMonoBoldOblique.xml" kerning="yes" embed-url="FreeMonoBoldOblique.ttf">
+          <font-triplet name="FreeMono" style="italic" weight="bold"/>
+        </font>
+      </fonts>
+    </renderer>
+  </renderers>
+</fop>

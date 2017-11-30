@@ -1,0 +1,53 @@
+<?xml version="1.0"?>
+<fop version="1.0">
+  <base>../../../</base>
+  <font-base>.</font-base>
+  <source-resolution>72</source-resolution>
+  <target-resolution>72</target-resolution>
+  <default-page-settings height="11.69in" width="8.27in"/>
+  <renderers>
+    <renderer mime="application/pdf">
+      <fonts>
+<!-- Sans-serif font -->
+        <font metrics-url="DejaVuSans.xml" kerning="yes" embed-url="DejaVuSans.ttf">
+          <font-triplet name="DejaVuSans" style="normal" weight="normal"/>
+        </font>
+        <font metrics-url="DejaVuSans-Oblique.xml" kerning="yes" embed-url="DejaVuSans-Oblique.ttf">
+          <font-triplet name="DejaVuSans" style="italic" weight="normal"/>
+        </font>
+        <font metrics-url="DejaVuSans-Bold.xml" kerning="yes" embed-url="DejaVuSans-Bold.ttf">
+          <font-triplet name="DejaVuSans" style="normal" weight="bold"/>
+        </font>
+        <font metrics-url="DejaVuSans-BoldOblique.xml" kerning="yes" embed-url="DejaVuSans-BoldOblique.ttf">
+          <font-triplet name="DejaVuSans" style="italic" weight="bold"/>
+        </font>
+<!-- Serif font -->
+        <font metrics-url="DejaVuSerif.xml" kerning="yes" embed-url="DejaVuSerif.ttf">
+          <font-triplet name="DejaVuSerif" style="normal" weight="normal"/>
+        </font>
+        <font metrics-url="DejaVuSerif-Italic.xml" kerning="yes" embed-url="DejaVuSerif-Italic.ttf">
+          <font-triplet name="DejaVuSerif" style="italic" weight="normal"/>
+        </font>
+        <font metrics-url="DejaVuSerif-Bold.xml" kerning="yes" embed-url="DejaVuSerif-Bold.ttf">
+          <font-triplet name="DejaVuSerif" style="normal" weight="bold"/>
+        </font>
+        <font metrics-url="DejaVuSerif-BoldItalic.xml" kerning="yes" embed-url="DejaVuSerif-BoldItalic.ttf">
+          <font-triplet name="DejaVuSerif" style="italic" weight="bold"/>
+        </font>
+<!-- Momospace font -->
+        <font metrics-url="DejaVuSansMono.xml" kerning="yes" embed-url="DejaVuSansMono.ttf">
+          <font-triplet name="DejaVuSansMono" style="normal" weight="normal"/>
+        </font>
+        <font metrics-url="DejaVuSansMono-Oblique.xml" kerning="yes" embed-url="DejaVuSansMono-Oblique.ttf">
+          <font-triplet name="DejaVuSansMono" style="italic" weight="normal"/>
+        </font>
+        <font metrics-url="DejaVuSansMono-Bold.xml" kerning="yes" embed-url="DejaVuSansMono-Bold.ttf">
+          <font-triplet name="DejaVuSansMono" style="normal" weight="bold"/>
+        </font>
+        <font metrics-url="DejaVuSansMono-BoldOblique.xml" kerning="yes" embed-url="DejaVuSansMono-BoldOblique.ttf">
+          <font-triplet name="DejaVuSansMono" style="italic" weight="bold"/>
+        </font>
+      </fonts>
+    </renderer>
+  </renderers>
+</fop>

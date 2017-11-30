@@ -12,6 +12,7 @@ int main(int argc, char * argv[]) {
  return 0;
 }
      </programlisting></para>
-     <imagedata fileref="../../dvlp/dbtest/svg.svg"/>
+     <para><imageobject><imagedata fileref="svg.svg"/></imageobject></para>
+     <para><imageobject><imagedata fileref="text.svg"/></imageobject></para>
   </sect1>
 </article>
