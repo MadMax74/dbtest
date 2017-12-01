@@ -11,6 +11,6 @@
 8. Использование утилиты make для автоматизации сборки документации.
 
 Используемая документация:
-* [The Docbook Definytive Guide](http://tdg.docbook.org/tdg/5.0/docbook.html)
+* [The Docbook Definitive Guide](http://tdg.docbook.org/tdg/5.0/docbook.html)
 * [DocBook XSL: The Complete Guide. Fourth Edition](http://www.sagehill.net/docbookxsl/index.html)
 * [Apache FOP](https://xmlgraphics.apache.org/fop/)
